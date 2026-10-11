@@ -19,7 +19,7 @@
 | [10K resistor (pack of 25)](https://adafruit.com/product/2784) | Pull-up on the DHT11 data line | 1 | $1.00 | $1.00 | [Adafruit](https://adafruit.com/product/2784) |
 | [Cherry MX1A-E1NW key switches](https://mouser.com/ProductDetail/540-MX1A-E1NW) | 2 buttons: menu and stats screen (3  spare) | 2 | $1.17 | $2.34 | [Mouser](https://mouser.com/ProductDetail/540-MX1A-E1NW) |
 | **Parts subtotal** | — | — | — | **$32.68** | — |
-| **Tax & shipping** | — | — | — | **$17.00** | — |
-| **Total** | — | — | — | **$49.68** | — |
+| **Tax & shipping** | — | — | — | **$2163.00** | — |
+| **Total** | — | — | — | **$2195.68** | — |
 
-**$19.68 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$2165.68 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
