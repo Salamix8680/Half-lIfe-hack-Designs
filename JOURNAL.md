@@ -99,26 +99,6 @@ I also learned that the outline can be any closed shape, and the star is just th
 
 I routed the board by pressing **X**, clicking each pad that still had a thin blue ratsnest line, and drawing the trace to its partner pad. I worked on the **B.Cu** layer, used 45° corners for a cleaner look, and used vias (**V**) only where a trace had to cross another one. Power traces (+3.3V, +5V) are a bit wider than the signal traces. When I finished, no pad had a blue line left.
 
-I also added a **GND copper pour** on the back layer. I drew a filled zone around the board, set its net to GND and pressed **B** to refill it. All the GND pads connected to it automatically.
-
-![Routed PCB with GND pour](PASTE-ROUTED-PCB-SCREENSHOT-HERE)
-
-## 7. Design rules check (DRC)
-
-I ran **Inspect → Design Rules Checker**. As the guide predicted, the only errors left were the two it says to ignore, and there were no missing connections.
-
-![DRC results](PASTE-DRC-SCREENSHOT-HERE)
-
-## 8. Customization and export
-
-I added some artwork to the board with the **Image Converter** tool, then exported the **Gerber files** and organised everything in my repository (schematic, PCB, footprints and Gerbers).
-
-![Finished board in the 3D viewer](PASTE-3D-VIEW-SCREENSHOT-HERE)
-
-## 9. Firmware
-
-I set up the Arduino IDE, installed the ESP32 board package and the required libraries (Adafruit GFX, Adafruit SSD1306, Adafruit MPU6050 and DHT sensor library), selected the **XIAO_ESP32C3** board, and uploaded `Starbie.ino`.
-
 ## What I learned
 
 - Footprints are what get drawn on the PCB, so every symbol needs the right one.
@@ -134,11 +114,7 @@ I set up the Arduino IDE, installed the ESP32 board package and the required lib
 - [x] Import the parts into the PCB editor (0 errors)
 - [x] Draw the board outline and arrange the parts
 - [x] Finish routing all traces
-- [x] Add a GND pour
-- [x] Run DRC and fix errors
-- [x] Add artwork with the Image Converter
-- [x] Export Gerbers and organise the files in my repository
-- [x] Upload the firmware with Arduino IDE
+-
 
 ![Screenshot 2026-10-10 194141](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/8wzPUMxdy8gNsT9RLSHhqt1A6edPzZMv/b9430747c9fceb90beedb5d0ad1fa71106c02d7c47e0b7d2834e5c207f5df1f0.png)
 
